@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>rclone Personal Backup</title>
+</head>
+<body>
+  <main>
+    <h1>rclone Personal Backup</h1>
+
+    <p>
+      This page describes a personal, single-user setup using
+      <a href="https://rclone.org/">rclone</a>, an open-source command-line
+      program, to back up selected files from the user's own computer to the
+      user's own Google Drive account.
+    </p>
+
+    <h2>How it works</h2>
+    <p>
+      rclone runs locally on the user's computer. It connects to Google Drive
+      after the user grants OAuth access, then transfers or checks files as
+      directed by the user. This website does not run the backup.
+    </p>
+
+    <h2>Google user data</h2>
+    <p>
+      The rclone setup requests Google Drive access needed for backup and
+      verification. The user controls which rclone commands to run. File
+      contents are transferred between the user's computer and the user's
+      Google Drive. This project does not receive or store Google Drive files,
+      OAuth tokens, client secrets, or backup data.
+    </p>
+
+    <h2>Policies</h2>
+    <ul>
+      <li><a href="./privacy.html">Privacy Policy</a></li>
+      <li><a href="./terms.html">Terms of Service</a></li>
+    </ul>
+  </main>
+</body>
+</html>
